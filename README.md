@@ -4,7 +4,7 @@ A fast sub domain brute tool for pentesters.
 
 It works with Python3.5+ or Python2.7 while Python3 users can get better performance.
 
-高并发的DNS暴力枚举工具。支持Python3.5+和Python2.7，使用Python3.5+ 效率更高。
+高并发的DNS暴力枚举工具。支持Python3.5+和Python2.7，使用Python3.8 效率更高。
 
 
 ## Install ##
