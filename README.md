@@ -43,7 +43,8 @@ Python2 users
 	                        Output file name. default is {target}.txt
 
 ## Change Log 
-
+* [2021-12-27]
+  * 增加脚本，ip地址筛选并去重
 * [2020-10-29]
   * 增加支持强制扫描泛解析的域名，需要加 `-w` 参数
 * [2020-10-26]
