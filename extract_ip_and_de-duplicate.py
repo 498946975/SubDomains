@@ -1,7 +1,7 @@
 import re
 import time
 
-time1 = time.time()
+start_time = time.time()
 
 
 ######函数功能:能够提取ip地址，并且去重################
@@ -30,8 +30,8 @@ def read_file(input_file_name, output_file_name):
 
 ####主函数################
 if __name__ == '__main__':
-    input_file_name = "/Users/oliver/Documents/PyCharm/subDomainsBrute/aegis-info.txt"
-    output_file_name = "/Users/oliver/Documents/PyCharm/subDomainsBrute/out-aegis.txt"
+    input_file_name = "/Users/oliver/Documents/PyCharm/subDomainsBrute/XXX.txt"	# 需要读取的文件
+    output_file_name = "/Users/oliver/Documents/PyCharm/subDomainsBrute/YYY.txt"	# 输出ip的文件
     read_file(input_file_name, output_file_name)
-    time2 = time.time()
-    print(u'总共耗时：' + str(time2 - time1) + 's')
+    end_time = time.time()
+    print(u'总共耗时：' + str(end_time - start_time) + 's')
